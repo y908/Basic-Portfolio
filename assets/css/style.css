@@ -1,15 +1,12 @@
 
 body{
 	background-image: url("assets/images/dust.png");
-	width: 1354px;
-	height: 746px;
-
 }
 
-#navbar{
+.navbar{
 	background: #ffffff;
 	margin-bottom: 20px;
-	padding: 40px;
+	padding: 21px;
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
 	border-bottom-width: 2px;
@@ -19,7 +16,7 @@ body{
 	top: 0;
 }
 
-#name{
+.name{
 	background: #4aaaa5;
 	padding: 25px;
 	width: 20%;
@@ -28,7 +25,7 @@ body{
 	top: 10px;
 }
 
-#about{
+.about{
 	width: 700px;
 	height: 400px;
 	background: #ffffff;
@@ -38,7 +35,7 @@ body{
 
 }
 
-#connect{
+.connect{
 	width: 300px;
 	height: 150px;
 	background: #ffffff;
@@ -47,7 +44,7 @@ body{
 	float: right;
 }
 
-#footer{
+.footer{
 	clear: both;
 	background: #666666;
 	padding: 40px;
@@ -61,19 +58,23 @@ body{
 }
 
 h1 {
+	font-size: 24pt;
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h2{
+	top-margin: 10px;
 	text-align: left;
 	margin-left: 20px;
+	font-size: 24pt;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h3{
+	font-size: 24pt;
 	text-align: center;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -95,11 +96,12 @@ img{
 }
 
 hr{
-	height: 2px;
+	height: 5px;
 	width: 95%;
-	color: #cccccc;
+	background-color: #cccccc;
 	align: center;
-	border-style: solid;
+	border: 0px;
+
 }
 
 a {
