@@ -32,10 +32,20 @@ body {
 	width: 700px;
 	background: #ffffff;
 	border: solid .5px #cccccc;
-	margin-left: 200px;
+	margin-left: 210px;
 	margin-bottom: 40px;
 	float: left;
 
+}
+
+.portfolio{
+	height: 700px;
+	width: 800px;
+	background: #ffffff;
+	border: solid .5px #cccccc;
+	margin-left: 210px;
+	margin-bottom: 40px;
+	float: left;
 }
 
 .contact{
@@ -43,19 +53,19 @@ body {
 	width: 700px;
 	background: #ffffff;
 	border: solid .5px #cccccc;
-	margin-left: 200px;
+	margin-left: 210px;
 	margin-bottom: 40px;
 	float: left;
 	position: relative;
 }
 
- .submit{
- 		height: 50px;
- 		width: 150px;
- 		background: #4aaaa5;
- 		position: absolute;
- 		bottom: 20px;
- 		left: 40px;
+.submit{
+ 	height: 50px;
+ 	width: 150px;
+ 	background: #4aaaa5;
+ 	position: absolute;
+ 	bottom: 20px;
+ 	left: 40px;
  }
 
 .connect{
@@ -128,10 +138,11 @@ p{
 
 }
 
+
 img {
-	padding: 15px;
+	margin: 10px;
 	margin-bottom: 5px;
-	margin-left: 10px
+	margin-left: 30px
 }
 
 hr {
